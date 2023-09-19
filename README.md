@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+## https://rainbow-kashata-572591.netlify.app/
+# after typing click on search then it will show
+### useEffect is a built-in React hook used for handling side effects in functional components.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### It takes two arguments: a function and an optional dependency array.
 
-## Available Scripts
+### The function passed to useEffect is called the "effect" function. It contains the code for performing the side effect.
 
-In the project directory, you can run:
+### The effect function is executed after the component renders, by default. This can be useful for tasks like data fetching, setting up event listeners, or updating the DOM.
 
-### `npm start`
+### If you provide an empty dependency array ([]) as the second argument to useEffect, the effect will only run once, after the initial render. This is common for initialization tasks.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### If you provide a dependency array with variables, the effect will run whenever any of those variables change. This allows you to control when the effect should be executed, optimizing performance.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Omitting the dependency array altogether means the effect runs after every render, which is useful for mimicking the behavior of componentDidUpdate in class components.
+### ![Screenshot (290)](https://github.com/achyuthask/rfs0306asn9/assets/96536973/84866614-38e4-4ec0-abaa-7d61f339a37d)
+### ![Screenshot (291)](https://github.com/achyuthask/rfs0306asn9/assets/96536973/ed6c4bc2-92a5-4ecd-94f4-b3c576c0461e)
+### ![Screenshot (292)](https://github.com/achyuthask/rfs0306asn9/assets/96536973/e070c5ca-0adb-4f06-b696-3d38a4437c53)
+## here we used external libraies like axios and the url is used from from edmam foodrecipy app
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
